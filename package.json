@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run gendoc && node --optimize_for_size --max_old_space_size=460 --gc_interval=100 ./clusters.js",
     "test": "npm run lint && NODE_ENV=test mocha",
-    "gendoc": "apidoc -i api/ -o ./public/apidoc",
+    "gendoc": "apidoc -i ./api/ -o ./public/apidoc",
     "lint": "eslint ."
   },
   "author": "Rafael Jesus <rafaelljesus86@gmail.com> (http://github.com/rafaeljesus)",
